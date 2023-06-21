@@ -4,23 +4,33 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./public/images/window.png" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/063168afd1.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
   </head>
   <body>
     <div class="header">
       <div class="logo">
-        <img src="./public/images/window.png" alt="logo" />
+        <img
+          src="./public/images/window.png"
+          alt="logo"
+          style="width: 50px; height: 50px;"
+        />
         <p>TravelM4</p>
       </div>
-      <div class="contact">
-        <p>+090 1234 9892</p>
-        <p>+090 1234 9892</p>
-      </div>
-      <div class="vertical-line"></div>
-      <div class="operation-time">
-        <p>Mon-Fri: 9:00AM - 5PM</p>
-        <p>Sat - Sun: cloased</p>
+      <div class="header__info">
+        <div class="contact">
+          <p>+33 1234 9892</p>
+          <p>123 1234 9892</p>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="operation-time">
+          <p>Mon-Fri: 9:00AM - 5PM</p>
+          <p>Sat - Sun: closed</p>
+        </div>
       </div>
       <button class="detail-btn">See Trips ></button>
     </div>
@@ -35,17 +45,17 @@
     </ul>
     <div class="main">
       <h1>Where will you go?</h1>
-      <p>The place that makes you stay magical.</p>
-      <input placeholder="Destination, city" />
-      <div>
+      <p>The place where you stay magical.</p>
+      <div class="main__input">
+        <input placeholder="Destination, city" />
         <input placeholder="Any Month" />
         <input placeholder="Sort By Date" />
         <button class="detail-btn">Search</button>
       </div>
     </div>
     <div class="footer-btn">
-      <div class="round blue"></div>
-      <div class="round red"></div>
+      <div class="round blue"><i class="fa-light fa-paintbrush-fine"></i></div>
+      <div class="round red">+</div>
     </div>
   </body>
 </html>
